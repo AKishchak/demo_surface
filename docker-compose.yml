@@ -1,0 +1,9 @@
+version: "3"
+services:
+  server:
+    build: ./
+    ports:
+      - 3300:80
+    volumes:
+      - "./nginx/demo.conf:/src/nginx/conf.d/demo.conf"
+      - "./src:/var/www/code/"
