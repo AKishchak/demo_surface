@@ -1,0 +1,3 @@
+[submodule "atom-simulator"]
+	path = atom-simulator
+	url = git@github.com:AKishchak/atom-simulator.git
